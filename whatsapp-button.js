@@ -4,11 +4,11 @@ class WhatsAppButton extends HTMLElement {
     }
 
     connectedCallback() {
-        const message = encodeURIComponent("Hi Jabulani! I'm interested in discussing a potential project with you.");
+        const message = encodeURIComponent("Hi Sabelo! I'm interested in discussing a potential project with you.");
         
         this.innerHTML = `
             <div class="whatsapp-button" data-tooltip="Click here to chat!">
-                <a href="https://wa.me/27766573608?text=${message}" target="_blank" class="whatsapp-link" aria-label="Chat on WhatsApp">
+                <a href="https://wa.me/27677438566?text=${message}" target="_blank" class="whatsapp-link" aria-label="Chat on WhatsApp">
                     <i class="fab fa-whatsapp"></i>
                     <span class="chat-text">Let's Chat</span>
                 </a>
